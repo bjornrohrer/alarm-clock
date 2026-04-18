@@ -34,7 +34,7 @@ Open the hello_world example project in ESP-IDF. Build it, flash it to your ESP3
 
 > 💡 If flashing fails, hold the BOOT button on the ESP32 while uploading. Some boards need this.
 
-#### 3. Run the "blink" example
+#### 3. Run the "blink" example -- FINISHED
 
 Flash the blink example to toggle the built-in LED. Read through the code carefully — notice how it uses `gpio_set_direction()` and `gpio_set_level()` instead of Arduino's `pinMode`/`digitalWrite`. This is your first taste of ESP-IDF's C API.
 
