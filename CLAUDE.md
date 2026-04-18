@@ -66,6 +66,7 @@ idf.py -p /dev/cu.usbserial-110 flash monitor  # Flash + monitor in one step
 idf.py menuconfig                     # Open the config menu (TUI)
 idf.py fullclean                      # Nuke the build directory and start fresh
 idf.py size-components                # See flash/RAM usage per component
+idf.py -p /dev/cu.usbserial-110 erase-flash     # Erase flash
 ```
 
 > **Note:** On Linux the serial port is usually `/dev/ttyUSB0` or `/dev/ttyACM0`. On macOS it's `/dev/cu.usbserial-*` or `/dev/cu.SLAB_USBtoUART`. Run `ls /dev/tty*` with the ESP32 plugged in to find yours.
