@@ -24,11 +24,11 @@
 
 ### Tasks
 
-#### 1. Install ESP-IDF on your computer
+#### 1. Install ESP-IDF on your computer -- FINISHED
 
 Follow Espressif's official "Get Started" guide. Install ESP-IDF v5.x via the installer (Windows) or the install script (Mac/Linux). Set up Neovim with the ESP-IDF
 
-#### 2. Run the "hello_world" example
+#### 2. Run the "hello_world" example -- FINISHED
 
 Open the hello_world example project in ESP-IDF. Build it, flash it to your ESP32, and open the serial monitor to see the output. This validates that your toolchain, USB driver, and board all work.
 
