@@ -1,8 +1,8 @@
 # ESP32 Alarm Clock — Project Roadmap
 
-> **Timeline:** ~20 weeks at ~5 hours/week  
-> **Framework:** ESP-IDF (C) with FreeRTOS  
-> **Estimated budget:** €20–45 total  
+> **Timeline:** ~20 weeks at ~5 hours/week
+> **Framework:** ESP-IDF (C) with FreeRTOS
+> **Estimated budget:** €20–45 total
 > **Approach:** Buy components incrementally — only get what you need for the current phase.
 
 ---
