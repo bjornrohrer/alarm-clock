@@ -1,0 +1,7 @@
+{
+  "name": "esp-idf",
+  "build": { "dockerfile": "Dockerfile" },
+  "workspaceFolder": "/workspaces/esp-32",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspaces/esp-32,type=bind",
+  "remoteUser": "dev"
+}
