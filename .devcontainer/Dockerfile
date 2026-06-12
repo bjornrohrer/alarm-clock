@@ -1,9 +1,10 @@
 ARG IDF_VERSION=release-v5.3
 FROM espressif/idf:${IDF_VERSION}
 
-# Tools + Node (for Claude Code)
+# Tools + Node (for Claude Code) + editor stack (Neovim + clangd LSP)
 RUN apt-get update && apt-get install -y --no-install-recommends \
       zsh git curl ca-certificates ripgrep fzf gnupg \
+      neovim clangd \
    && curl -fsSL https://deb.nodesource.com/setup_22.x | bash - \
    && apt-get install -y --no-install-recommends nodejs \
    && rm -rf /var/lib/apt/lists/*
